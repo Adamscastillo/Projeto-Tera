@@ -58,16 +58,17 @@ nav {
   font-style: normal; 
   font-variant: normal; 
   text-transform: none; 
- 
-   
+  align-items: -15px; 
   background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
   box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); 
 
-  }
-  .myButton:hover {
-  background: #1C6EA4; }
-  .myButton:active {
-  background: #144E75; }
+}
+.myButton:hover {
+  background: #1C6EA4; 
+}
+.myButton:active {
+  background: #144E75; 
+}
 
 
 /* navbar */
@@ -105,11 +106,23 @@ figure{
   width: 500px;
    
 }
-p{
-  display: flex;
-  font-size: 12px;
+/* TEXTO */
+.paragraph{
+  position: absolute;
+  left: 75px;
+  top: 110px;
+  font-size: 30px;
   color: white;
-  text-align: left;
+  
+}
+
+.paragraph1{
+  position: absolute;
+  left: 75px;
+  top: 440px;
+
+  font-size: 45px;
+  color: white;
 
 }
 
